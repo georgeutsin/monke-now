@@ -1,0 +1,28 @@
+{
+    "name": "Odds Calculater Extension",
+    "description": "This extension is made for PokerNow",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+    ],
+    "content_scripts": [
+        {
+          "matches": [
+            "https://www.pokernow.club/games/*"
+          ],
+          "css": [
+            "dist/calc.css"
+          ]
+        },
+        {
+          "matches": [
+            "https://www.pokernow.club/games/*"
+          ],
+          "run_at": "document_idle",
+          "js": [
+            "dist/jquery-3.5.1.min.js",
+            "dist/calc.js"
+          ]
+        }
+      ]
+ }
