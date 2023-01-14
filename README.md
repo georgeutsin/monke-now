@@ -6,7 +6,7 @@ Roadmap:
 
 1) Chrome plugin for scraping page data -- started with this repo: https://github.com/originalpete/pokernow-pot-odds-extension
 
-2) monte carlo simulation for maximum monke -- assume everybody is playing all cards, and create a basic card-board probability signal. I stole some the code from this repo: https://github.com/emileindik/poker-odds-machine 
+2) monte carlo simulation for maximum monke -- assume everybody is playing all cards, and create a basic card-board probability signal. I stole the code from this repo: https://github.com/emileindik/poker-odds-machine 
 
 --- this is as far as I got --
 
