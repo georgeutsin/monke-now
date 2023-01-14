@@ -1,3 +1,4 @@
+// Stolen from https://github.com/emileindik/poker-odds-machine 
 import { Input, HandRanks, CardGroup, Deck, BestHand, Stats } from './types';
 import { cleanInput, validateInput, shuffle } from './util';
 import { evaluate } from './evaluate';

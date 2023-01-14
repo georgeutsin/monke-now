@@ -1,3 +1,4 @@
+// Stolen from https://github.com/emileindik/poker-odds-machine 
 import { Input, Card, CardGroup } from './types';
 
 export function validateInput(input: Input): void {

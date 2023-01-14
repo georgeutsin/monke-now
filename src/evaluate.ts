@@ -1,3 +1,4 @@
+// Stolen from https://github.com/emileindik/poker-odds-machine 
 import { BestHand, CardGroup, HandRanks, Ranks } from './types';
 import { uniqWith } from './util';
 

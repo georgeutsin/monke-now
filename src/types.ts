@@ -1,3 +1,5 @@
+// Stolen from https://github.com/emileindik/poker-odds-machine 
+
 import { shuffle } from "./util";
 
 export enum Suits {
